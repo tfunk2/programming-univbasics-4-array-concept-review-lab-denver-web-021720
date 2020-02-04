@@ -24,5 +24,13 @@ end
 
 
 def find_min_value(array)
-  # Add your solution here
+max_value = 0
+times_iterated = array.length
+
+  times_iterated.times do |i|
+    if array[i] > max_value
+      max_value = array[i]
+    end
+  end
+    return max_value
 end
