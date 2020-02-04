@@ -24,7 +24,7 @@ end
 
 
 def find_min_value(array)
-max_value = 0
+min_value = array.first
 times_iterated = array.length
 
   times_iterated.times do |i|
