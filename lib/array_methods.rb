@@ -18,7 +18,6 @@ times_iterated.times do |i|
   if array[i] > max_value do
     max_value = array[i]
   end
-end
     return max_value
 end
 
