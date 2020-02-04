@@ -32,5 +32,5 @@ times_iterated = array.length
       min_value = array[i]
     end
   end
-    return max_value
+    return min_value
 end
