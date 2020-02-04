@@ -15,9 +15,9 @@ max_value = 0
 times_iterated = array.length
 
 times_iterated.times do |i|
-  if array[i] > max_value {
+  if array[i] > max_value do
     max_value = array[i]
-  }
+  end
     return max_value
 end
 
