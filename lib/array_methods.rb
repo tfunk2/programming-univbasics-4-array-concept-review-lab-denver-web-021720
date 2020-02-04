@@ -28,8 +28,8 @@ min_value = array.first
 times_iterated = array.length
 
   times_iterated.times do |i|
-    if array[i] > max_value
-      max_value = array[i]
+    if array[i] < min_value
+      min_value = array[i]
     end
   end
     return max_value
